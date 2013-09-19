@@ -1,0 +1,7 @@
+#!/bin/sh
+export VERSIONER_PYTHON_PREFER_32_BIT=yes
+export REDMINE_URI=''
+export REDMINE_API_ACCESS_KEY=hogehoge
+
+./bin/hubot -a skype
+chmod +x ./runkeynopio
